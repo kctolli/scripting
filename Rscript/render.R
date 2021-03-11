@@ -1,6 +1,4 @@
-source("../site.R")
 library(rmarkdown)
-setwd(here)
 
 # Render Functions
 
@@ -38,9 +36,3 @@ render_all <- function(){
   render_resume()
   setwd("here")
 }
-
-# Call Functions
-
-render_web()
-render_resume()
-render_all()
