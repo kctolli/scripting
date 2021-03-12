@@ -69,8 +69,7 @@ print_work <- function(section_id = 'experience'){
     + Introduction to Electrical and Computer Engineering
   </div></div><li>Taught students topics from these classes</li>
   <li>Lead group and individual appointments and discussions</li></ul>'))
-  } else {
-  if (section_id == 'experience'){
+  } else {if (section_id == 'experience'){
     
     glue_template <- "
 ## {institution}
