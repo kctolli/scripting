@@ -98,7 +98,9 @@ print_project <- function(){
   
   glue_template <- "
 ### {title}
+
 {start} - {end} --- Spent {time} hours
+
 - {description_1}
 - {description_2}
 - {description_3}
