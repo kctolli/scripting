@@ -73,9 +73,13 @@ print_work <- function(section_id = 'experience'){
     
     glue_template <- "
 ## {institution}
+
 #### {time}
+
 ### {title}
+
 {startmonth} {start} - {endmonth} {end} --- {loc}
+
 - {description_1}
 - {description_2}
 - {description_3}
@@ -83,7 +87,9 @@ print_work <- function(section_id = 'experience'){
   
   glue_template <- "
 #### {title}
+
 {startmonth} {start} - {endmonth} {end} --- {loc}
+
 - {description_1}
 - {description_2}
 - {description_3}
