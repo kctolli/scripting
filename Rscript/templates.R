@@ -12,9 +12,13 @@ print_resume_section <- function(section_id){
   
   glue_template <- "
 ### {title}
+
 {institution}
+
 {loc}
+
 {end}
+
 - {description_1}
 - {description_2}
 - {description_3}
@@ -42,9 +46,13 @@ print_resume_section <- function(section_id){
 print_resume_education <- function(){
   pander::pander("
 ### Brigham Young University - Idaho
+
 Bachelor of Science in Software Engineering
+
 Rexburg, ID
+
 2017 <br> | <br> 2020
+
 + Minor: Computer Engineering and Data Science
 + Coursework: Advanced Embedded Systems, Digital System Design, <br />Computer Architecture, Circuit Analysis, Machine Learning, 
 <br />Intermediate Stats, Data Intuition, Data Wrangling, Database Development, Applied Development, System Security, 
@@ -54,22 +62,7 @@ Project Management, Linear Algebra, Discrete Math, Differential Calculus
 
 print_work <- function(section_id = 'experience'){
   
-  if (section_id == 'tutor'){
-    string <- "javascript:showhide('tutor')"
-    
-    pander::pander(glue::glue('
-  ### Computer Science Tutor
-  April 2018 - August 2018 --- Rexburg, ID
-  <ul><div style="padding-left:0px;">
-  <span class="tooltipr"><a href={string}><li>Tutored many classes</li></a></span>
-  <div id="tutor" style="display:none;padding-left:20px;">
-    + Object-Oriented Programming with Data Structures using Python
-    + Fundamentals of Digital Systems w/ Lab
-    + Introduction to Engineering
-    + Introduction to Electrical and Computer Engineering
-  </div></div><li>Taught students topics from these classes</li>
-  <li>Lead group and individual appointments and discussions</li></ul>'))
-  } else {if (section_id == 'experience'){
+  if (section_id == 'experience'){
     
     glue_template <- "
 ## {institution}
@@ -86,6 +79,7 @@ print_work <- function(section_id = 'experience'){
 \n\n\n"} else if (section_id == 'ta'){
   
   glue_template <- "
+
 #### {title}
 
 {startmonth} {start} - {endmonth} {end} --- {loc}
@@ -111,7 +105,28 @@ print_project <- function(){
 \n\n\n"
   
   section(entries, section_id, glue_template)
-}}
+}
+
+print_tutor <- function(){
+  string <- "javascript:showhide('tutor')"
+  
+  pander::pander(glue::glue('
+  ### Computer Science Tutor
+  
+  April 2018 - August 2018 --- Rexburg, ID
+  
+  <ul><div style="padding-left:0px;">
+  <span class="tooltipr"><a href={string}><li>Tutored many classes</li></a></span>
+  <div id="tutor" style="display:none;padding-left:20px;">
+  
+    + Object-Oriented Programming with Data Structures using Python
+    + Fundamentals of Digital Systems w/ Lab
+    + Introduction to Engineering
+    + Introduction to Electrical and Computer Engineering
+  
+  </div></div><li>Taught students topics from these classes</li>
+  <li>Lead group and individual appointments and discussions</li></ul>'))
+}
 
 ## Basic Templates
 
