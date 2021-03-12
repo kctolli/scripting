@@ -54,6 +54,22 @@ Project Management, Linear Algebra, Discrete Math, Differential Calculus
 
 print_work <- function(section_id = 'experience'){
   
+  if (section_id == 'tutor'){
+    string <- "javascript:showhide('tutor')"
+    
+    pander::pander(glue::glue('
+  ### Computer Science Tutor
+  April 2018 - August 2018 --- Rexburg, ID
+  <ul><div style="padding-left:0px;">
+  <span class="tooltipr"><a href={string}><li>Tutored many classes</li></a></span>
+  <div id="tutor" style="display:none;padding-left:20px;">
+    + Object-Oriented Programming with Data Structures using Python
+    + Fundamentals of Digital Systems w/ Lab
+    + Introduction to Engineering
+    + Introduction to Electrical and Computer Engineering
+  </div></div><li>Taught students topics from these classes</li>
+  <li>Lead group and individual appointments and discussions</li></ul>'))
+  } else {
   if (section_id == 'experience'){
     
     glue_template <- "
@@ -90,24 +106,7 @@ print_project <- function(){
 \n\n\n"
   
   section(entries, section_id, glue_template)
-}
-
-print_tutor <- function(){
-  string <- "javascript:showhide('tutor')"
-  
-  pander::pander(glue::glue('
-  ### Computer Science Tutor
-  April 2018 - August 2018 --- Rexburg, ID
-  <ul><div style="padding-left:0px;">
-  <span class="tooltipr"><a href={string}><li>Tutored many classes</li></a></span>
-  <div id="tutor" style="display:none;padding-left:20px;">
-    + Object-Oriented Programming with Data Structures using Python
-    + Fundamentals of Digital Systems w/ Lab
-    + Introduction to Engineering
-    + Introduction to Electrical and Computer Engineering
-  </div></div><li>Taught students topics from these classes</li>
-  <li>Lead group and individual appointments and discussions</li></ul>'))
-}
+}}
 
 ## Basic Templates
 
