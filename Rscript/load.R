@@ -9,13 +9,3 @@ load_libraries <- function(){
 
 here <- here::here() ## set here file path
 current_year <- lubridate::year(Sys.Date()) ## sys year 
-
-# Copyright util
-
-copyright <- function(start){
-  if (start <= current_year){
-    if (current_year != start) {str <- glue::glue('{start} - {current_year} -- Kyle Tolliver')}
-    else {str <- glue::glue('{current_year} -- Kyle Tolliver')}}
-  else {str <- 'Time Error'}
-  pander::pander(glue::glue('<i class="far fa-copyright"></i>{str}'))
-}
