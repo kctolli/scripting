@@ -10,7 +10,7 @@ var timer = setInterval(myTimer, 100);
 
 function myTimer() {
   var d = new Date();
-  document.getElementById("time").innerHTML = d.toLocaleTimeString();
+  document.getElementById("timer").innerHTML = d.toLocaleTimeString();
 }
 
 function startTime() {
@@ -28,4 +28,9 @@ function startTime() {
 function checkTime(i) {
   if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
   return i;
+}
+
+
+function time() {
+  document.getElementById('time').innerHTML = Date();
 }

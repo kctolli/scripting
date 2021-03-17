@@ -1,0 +1,12 @@
+include("./ajax.js");
+include("./time.js");
+include("./form.js");
+include("./appml.js");
+include("./await.js");
+include("./jQuery.js");
+include("./cookie.js");
+include("./screen.js");
+include("./select.js");
+include("./firebase.js");
+include("./location.js");
+include("./frameworks.js");
