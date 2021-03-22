@@ -10,3 +10,6 @@ include("./select.js");
 include("./firebase.js");
 include("./location.js");
 include("./frameworks.js");
+include("./webfont.js");
+include("./date.js");
+include("./lazyload.js");
