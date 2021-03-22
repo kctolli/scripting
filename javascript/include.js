@@ -13,3 +13,4 @@ include("./frameworks.js");
 include("./webfont.js");
 include("./date.js");
 include("./lazyload.js");
+include("./mode.js");
