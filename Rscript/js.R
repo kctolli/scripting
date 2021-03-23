@@ -21,7 +21,7 @@ jquery <- "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
 
 ### React
 
-react <- "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+react <- "https://unpkg.com/react@16/umd/react.production.min.js"
 react_dom <- "https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"
 babel <- "https://unpkg.com/babel-standalone@6.15.0/babel.min.js"
 
