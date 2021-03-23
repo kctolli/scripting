@@ -1,5 +1,46 @@
 # CSS
 
+site_css <- function(){
+  pander::pander('<style>
+/*
+Site Styles
+*/
+
+a {color: blue;}
+ul {text-align: left;}
+
+.info {font-size: 80%; font-style: italic; font-family: "Arial";}
+
+body {background-color: white; color: black; font-family: "Helvetica";}
+footer{clear:both; margin: auto;}
+.dark-mode {background-color: black; color: white;}
+
+hr{border-top: 1px solid black;}
+.dark-mode hr {border-top: 1px solid white;}
+
+.navbar{background-color: white;}
+.dark-mode .navbar{background-color: black;}
+
+.tocify{background-color: white; color: black; font-family: "Times";}
+
+.btn {
+  background-color: white;
+  border: none;
+  color: blue;
+  padding: 5px 10px;
+  margin: 2px;
+  border-radius: 4px;
+  cursor: pointer;   
+  font-family: "Georgia";
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.dark-mode .btn{background-color: black;}
+.btn:hover {background-color: blue; color: white;}
+</style>')
+} 
+
 yaml_css <- function(){
   pander::pander('<style>
 /* 
