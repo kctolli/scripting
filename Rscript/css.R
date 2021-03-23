@@ -5,7 +5,7 @@ resume_css <- function(top, side, bottom){
 <style>
 # /* Fix Margins */
 .pagedjs_page {
-    background: linear-gradient(to left,var(--sidebar-background-color),var(--sidebar-background-color) var(--sidebar-background-width),white var(--sidebar-background-width));
+    # background: linear-gradient(to left,var(--sidebar-background-color),var(--sidebar-background-color) var(--sidebar-background-width),white var(--sidebar-background-width));
     --pagedjs-margin-top: {top}in;
     --pagedjs-margin-right: {side}in;
     --pagedjs-margin-left: {side}in;
