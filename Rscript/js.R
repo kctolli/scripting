@@ -15,8 +15,6 @@ darkmode <- function(){pander::pander('<script> function darkmode() {document.bo
 
 ## Frameworks
 
-frameworks <- pander::pander(glue::glue('{jquery}{react}{react_dom}{babel}{min}{route}{animate}{vue}{appml}'))
-
 ### Jquery
 
 jquery <- "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
