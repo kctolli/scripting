@@ -1,7 +1,7 @@
 # CSS
 
 yaml_css <- function(){
-  pander::pander('
+  pander::pander('<style>
 /* 
 Yaml Styles 
 Needed for Headers
@@ -300,7 +300,7 @@ Needed for Headers
     background-color: #f8f8f8;
     border-radius: 6px;
 }
-')}
+</style>')}
 
 
 ## Libaries
