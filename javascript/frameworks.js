@@ -12,7 +12,6 @@ include("https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-animate.j
 
 // Vue 
 include("https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js");
-include("https://cdn.jsdelivr.net/npm/vue@2");
 
 // Bootstrap
 include("https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js");
