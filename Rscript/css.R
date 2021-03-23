@@ -4,7 +4,7 @@ resume_css <- function(top, side, bottom){
   pander::pander(glue::glue('
 <style>
 # /* Fix Margins */
-.pagedjs_page {
+:root {
     # background: linear-gradient(to left,var(--sidebar-background-color),var(--sidebar-background-color) var(--sidebar-background-width),white var(--sidebar-background-width));
     --pagedjs-margin-top: {top}in;
     --pagedjs-margin-right: {side}in;
