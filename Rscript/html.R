@@ -17,17 +17,3 @@ gray <- function(){pander::pander('style="color:gray;"')}
 white <- function(){pander::pander('style="color:white;"')}
 px0 <- function(){pander::pander('style="padding-left:0px;"')}
 px20 <- function(){pander::pander('style="display:none;padding-left:20px;"')}
-
-# R Javascript
-
-nav <- function(){
-  pagebreak <- pagebreak()
-  
-  pander::pander(glue::glue('
-  <script src="./site_libs/site.js"></script>
-  {pagebreak}<nav class="info"><p>How to navigate this website: </p><ul>
-  <li><span style="color:blue;">Blue</span> text - Clickable (Click to see pop up links or new pages)</li>
-  <li><span style="color:gray;">Gray</span> text - Hoverable (Hover to get more information)</li></ul>
-  <button class="btn" onclick="darkmode()"><i class="fas fa-adjust">Toggle Dark Mode</i></button></nav>
-  {pagebreak} \n\n\n'))
-}
