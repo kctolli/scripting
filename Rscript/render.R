@@ -34,5 +34,5 @@ render_all <- function(){
   render_web()
   setwd("./site_libs/resume")
   render_resume()
-  setwd("here")
+  setwd(here)
 }
