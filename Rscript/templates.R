@@ -1,3 +1,5 @@
+section <- function(cv, section_id, glue_template){print(glue::glue_data(filter(cv, section == section_id), glue_template))}
+
 print_contact <- function(file){
   
   if (file == "resume"){info <- dplyr::filter(contact, in_resume)}
@@ -48,7 +50,6 @@ print_ds <- function(){
 }
 
 print_about <- function(){
-  # pic <- print_pic("./site_libs/images/me.jpg")
   string <- "javascript:showhide('me')"
   
   pander::pander(glue::glue('## About Me \n\n 
