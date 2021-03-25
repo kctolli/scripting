@@ -13,28 +13,34 @@ showhide <- function () {
 
 darkmode <- function(){pander::pander('<script> function darkmode() {document.body.classList.toggle("dark-mode");}</script>')}
 
-## Frameworks
+## Framework variables
 
 ### Jquery
 
-jquery <- "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+jquery <- pander::pander('<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" crossorigin></script>') 
 
 ### React
 
-react <- "https://unpkg.com/react@16/umd/react.production.min.js"
-react_dom <- "https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"
-babel <- "https://unpkg.com/babel-standalone@6.15.0/babel.min.js"
+react <- pander::pander('  
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js" crossorigin></script>
+') 
 
 ### Angular
 
-min <- "https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"
-route <- "https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"
-animate <- "https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-animate.js"
+angular <- pander::pander('  
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js" crossorigin></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js" crossorigin></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-animate.js" crossorigin></script>
+') 
 
 ### Vue
 
-vue <- "https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"
+vue <- pander::pander('<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js" crossorigin></script>') 
 
 ### Appml
 
-appml <- "https://www.w3schools.com/appml/2.0.3/appml.js"
+appml <- pander::pander('<script src="https://www.w3schools.com/appml/2.0.3/appml.js" crossorigin></script>')
