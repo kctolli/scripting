@@ -1,6 +1,6 @@
 library(reactR)
 library(jsonlite)
-library(v8)
+library(V8)
 
 # JavaScript
 
