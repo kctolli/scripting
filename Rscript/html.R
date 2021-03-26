@@ -1,3 +1,6 @@
+library(htmltools)
+library(htmlwidgets)
+
 # R to HTML Functions
 
 print_newline <- function(){pander("\n")}

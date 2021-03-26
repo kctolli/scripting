@@ -1,4 +1,4 @@
-library(googlesheets4, tidyverse)
+library(googlesheets4, tidyverse, sqldf)
 
 gs4_deauth()
 

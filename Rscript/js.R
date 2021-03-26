@@ -1,3 +1,7 @@
+library(reactR)
+library(jsonlite)
+library(v8)
+
 # JavaScript
 
 srcscript <- function(url){pander::pander(glue::glue('<script src={url}></script>'))}
@@ -17,7 +21,7 @@ darkmode <- function(){pander::pander('<script> function darkmode() {document.bo
 
 ### Jquery
 
-jquery <- pander::pander('<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" crossorigin></script>') 
+jquery <- htmltools::tags$script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js") 
 
 ### React
 
@@ -39,7 +43,7 @@ angular <- pander::pander('
 
 ### Vue
 
-vue <- pander::pander('<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js" crossorigin></script>') 
+vue <- htmltools::tags$script(src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js")
 
 ### Appml
 
