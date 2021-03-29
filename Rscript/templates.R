@@ -9,11 +9,7 @@ print_contact <- function(file){
   print(glue::glue_data(info, "<i class='fa fa-{icon}'></i> [{contact}]({link}) \n\n"))
 }
 
-print_skills <- function(){
-  master <- dplyr::filter(skills, level > 5)
-  print(glue::glue_data(master, "- {skill} \n"))
-}
-
+print_skills <- function(){print(glue::glue_data(dplyr::filter(skills, level > 5), "- {skill} \n"))}
 print_pos <- function(section_id){section(pos, section_id, "- {name}\n")}
 print_solo <- function(){print(glue::glue_data(solo, "- {name} - [#{number}](https://www.sololearn.com/{link}/pdf)\n"))}
 print_soc <- function(){print(glue::glue_data(society, "- {group} associated with {loc} ({start} - {end}) \n"))}
