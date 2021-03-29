@@ -1,5 +1,4 @@
 library(htmltools, htmlwidgets)
-library(pander, glue)
 library(knitr, rmarkdown)
 
 opts_chunk$set(results = 'asis', echo = FALSE, message = FALSE, warning = FALSE) ## Chunk Displays
