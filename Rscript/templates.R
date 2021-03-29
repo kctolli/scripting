@@ -1,4 +1,4 @@
-library(glue, pander, tidyverse, pacman)
+library(glue, pander, tidyverse)
 
 here <- here::here() ## set here file path
 
