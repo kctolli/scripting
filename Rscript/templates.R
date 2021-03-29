@@ -10,6 +10,7 @@ print_contact <- function(file){
 }
 
 print_skills <- function(){print(glue::glue_data(dplyr::filter(skills, level > 5), "- {skill} \n"))}
+print_hobbies <- function(){print(glue::glue_data(hobbies, "- {hobby} \n"))}
 print_pos <- function(section_id){section(pos, section_id, "- {name}\n")}
 print_solo <- function(){print(glue::glue_data(solo, "- {name} - [#{number}](https://www.sololearn.com/{link}/pdf)\n"))}
 print_soc <- function(){print(glue::glue_data(society, "- {group} associated with {loc} ({start} - {end}) \n"))}
