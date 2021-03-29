@@ -1,6 +1,10 @@
 library(htmltools)
 library(htmlwidgets)
 
+library(knitr, rmarkdown)
+
+opts_chunk$set(results = 'asis', echo = FALSE, message = FALSE, warning = FALSE) ## Chunk Displays
+
 # R to HTML Functions
 
 print_newline <- function(){pander("\n")}

@@ -1,4 +1,6 @@
-library(glue, pander, tidyverse)
+library(glue, pander, tidyverse, pacman)
+
+here <- here::here() ## set here file path
 
 section <- function(cv, section_id, glue_template){print(glue_data(filter(cv, section == section_id), glue_template))}
 
