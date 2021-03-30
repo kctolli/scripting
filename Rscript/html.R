@@ -5,7 +5,8 @@ opts_chunk$set(results = 'asis', echo = FALSE, message = FALSE, warning = FALSE)
 
 # R to HTML Functions
 
-print_newline <- function(n = 1){for(i in 1:n){pander("\n")}}
+print_newline <- function(){pander("\n")}
+print_newlines <- function(n = 1){for(i in 1:n){pander("\n")}}
 print_h1 <- function(h1){pander(glue("# {h1} \n\n\n"))}
 print_h2 <- function(h2){pander(glue("## {h2} \n\n\n"))}
 print_h3 <- function(h3){pander(glue("### {h3} \n\n\n"))}
