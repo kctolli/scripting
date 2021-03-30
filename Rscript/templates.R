@@ -1,5 +1,5 @@
 source('./basictemplates.R')
-source('./skilltemplates.R')
+source('./skillstemplates.R')
 
 library(glue)
 library(pander)
