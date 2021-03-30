@@ -16,6 +16,7 @@ print_pic <- function(img){pander(glue("![]({img}) \n\n\n"))}
 print_strong <- function(p){pander(glue('<strong>{p}</strong>'))} 
 pagebreak <- function(){pander('<hr /><div style="clear:both;"></div>')}
 divbreak <- function(){pander('</div></div><br /> \n\n\n')}
+divpage <- function(){pander('</div></div><br /> \n\n\n <hr /><div style="clear:both;"></div>')}
 
 # R Styles
 
