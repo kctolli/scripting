@@ -76,3 +76,10 @@ print_hs <- function(){
   advanced and college level courses in the process of getting my High School Diploma.</a>
   <span class="tooltipRtext"><strong>2017 Graduate</strong></span></span><div id="hs" style="display:none;padding-left:20px;">')
 }
+
+print_byuiwork <- function(){
+  pander('\n\n\n
+  ## Brigham Young University - Idaho \n\n\n 
+  #### Part-Time \n\n\n
+  ### Teaching Assistant {.tabset .tabset-fade} \n\n\n')
+}
