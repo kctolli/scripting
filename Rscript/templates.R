@@ -24,15 +24,13 @@ print_highlights <- function(){print(glue_data(highlights, "- [{Text}]({Link}) \
 print_portfolio <- function(){pander('<p class="info">This website is setup as a personal portfolio.</p>')}
 
 print_tutor <- function(){
-  string <- "javascript:showhide('tutor')"
-  
   pander(glue('
   ### Computer Science Tutor
 
   April 2018 - August 2018 --- Rexburg, ID
 
   <ul><div style="padding-left:0px;">
-  <span class="tooltipr"><a href={string}><li>Tutored many classes</li></a></span>
+  <span class="tooltipr"><a href="javascript:showhide(\'tutor\')"><li>Tutored many classes</li></a></span>
   <div id="tutor" style="display:none;padding-left:20px;">
 
     + Object-Oriented Programming with Data Structures using Python
@@ -45,10 +43,8 @@ print_tutor <- function(){
 }
 
 print_ds <- function(){
-  string <- "javascript:showhide('pic')"
-  
   pander(glue('
-  <div style="padding-left:0px;"><span class="tooltipr"><a href={string} align="center">
+  <div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'pic\')" align="center">
   <img src="https://secure.meetupstatic.com/photos/event/d/7/4/b/600_482695115.jpeg" 
   alt="Data Science Image" class="img"></a></span>
   <h4 id="pic" style="display:none;padding-left:20px;">Interdisciplinary field that uses scientific methods, 
@@ -57,12 +53,26 @@ print_ds <- function(){
 }
 
 print_about <- function(){
-  string <- "javascript:showhide('me')"
-  
   pander(glue('## About Me \n\n 
   BYU-Idaho graduate with a Bachelor\'s (BS) in Software Engineering. 
   I also earned a minor in Computer Engineering and Data Science. 
   I love to learn new things and solve problems. \n\n
-  <div style="padding-left:0px;"><span class="tooltipr"><a href={string}>
+  <div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'me\')">
   A little more about me</a></span><div id="me" style="display:none;padding-left:20px;">\n\n'))
+}
+
+print_byui <- function(){
+  pander('## Brigham Young University - Idaho \n\n\n
+  I earned a Bachelor\'s of Science in Software Engineering <br />with a minor in Computer Engineering and Data Science. \n\n\n 
+  <div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'diploma\')">Diploma</a>
+  <span class="tooltipRtext"><strong>2020 Graduate</strong><br/>My cumulative GPA was <br/> 3.6 out of 4</span></span>
+  <div id="diploma" align="center" style="display:none;padding-left:20px;"><img src="./site_libs/images/diploma.jpg" alt="Diploma">
+  </div></div> \n\n\n')
+}
+
+print_hs <- function(){
+  pander('## Moorpark High School \n\n\n
+  <div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'hs\')">I was able to take some 
+  advanced and college level courses in the process of getting my High School Diploma.</a>
+  <span class="tooltipRtext"><strong>2017 Graduate</strong></span></span><div id="hs" style="display:none;padding-left:20px;">')
 }
