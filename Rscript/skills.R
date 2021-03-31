@@ -8,20 +8,16 @@ print_compe <- function(){
 
 ##### Programming
 
-<ul><div style="padding-left:0px;"><span class="tooltipr">
-<a href="javascript:showhide(\'C\')"><li style="color:gray;">C/C++</li></a>
-<span class="tooltipRtext"><ul style="color:white;">
-<li>Embedded</li><li>Register-level</li></ul></span></span></div>
-<li>Python</li><li>Simulink</li></ul>
+<ul><div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'C\')">
+<li style="color:gray;">C/C++</li></a><span class="tooltipRtext"><ul style="color:white;">
+<li>Embedded</li><li>Register-level</li></ul></span></span></div><li>Python</li><li>Simulink</li></ul>
 
 ##### Embedded OS
 
-<ul><li>ROS (Robot Operating System)</li><li>VxWorks</li>
-<li>FreeRTOS</li><li>Windows IOT</li><div style="padding-left:0px;">
-<span class="tooltipr"><a href="javascript:showhide(\'linux\')">
-<li style="color:gray;">Linux</li></a><span class="tooltipRtext">
-<ul style="color:white;"><li>Real-Time</li><li>Embedded</li>
-<li>Raspberry OS</li></ul></span></span></div></ul>
+<ul><li>ROS (Robot Operating System)</li><li>VxWorks</li><li>FreeRTOS</li><li>Windows IOT</li>
+<div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'linux\')">
+<li style="color:gray;">Linux</li></a><span class="tooltipRtext"><ul style="color:white;">
+<li>Real-Time</li><li>Embedded</li><li>Raspberry OS</li></ul></span></span></div></ul>
 
 #### Tools
 
@@ -48,15 +44,14 @@ print_compe <- function(){
 
 <ul><div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'uart\')">
 <li style="color:gray;">UART</li></a><span class="tooltipRtext"><ul style="color:white;">
-<li>Differential Signaling</li><li>Full-Duplex</li></ul></span></span></div>
-<li>I2C</li><li>SPI</li><li>GPIO</li><li>USB</li><li>eUSCI</li>
-<div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'wifi\')">
-<li style="color:gray;">Wireless</li></a><span class="tooltipRtext"><ul style="color:white;">
-<li>Wifi (WLAN)</li><li>Bluetooth</li><li>Zigbee</li><li>RFID</li><li>GSM and GPS</li>
-</ul></span></span></div><div style="padding-left:0px;"><span class="tooltipr">
-<a href="javascript:showhide(\'uart\')"><li style="color:gray;">Mixed-Signals</li></a>
-<span class="tooltipRtext"><ul style="color:white;"><li>Analog</li><li>Digital</li>
-<li>ADCs and DACs</li></ul></span></span></div></ul>
+<li>Differential Signaling</li><li>Full-Duplex</li></ul></span></span></div><li>I2C</li><li>SPI</li>
+<li>GPIO</li><li>USB</li><li>eUSCI</li><div style="padding-left:0px;"><span class="tooltipr">
+<a href="javascript:showhide(\'wifi\')"><li style="color:gray;">Wireless</li></a>
+<span class="tooltipRtext"><ul style="color:white;"><li>Wifi (WLAN)</li><li>Bluetooth</li>
+<li>Zigbee</li><li>RFID</li><li>GSM and GPS</li></ul></span></span></div>
+<div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'uart\')">
+<li style="color:gray;">Mixed-Signals</li></a><span class="tooltipRtext"><ul style="color:white;">
+<li>Analog</li><li>Digital</li><li>ADCs and DACs</li></ul></span></span></div></ul>
 
 ##### Internet of Things
 
@@ -70,12 +65,10 @@ print_compe <- function(){
 
 #### FPGAs and HDLs
 
-<ul><div style="padding-left:0px;"><span class="tooltipr">
-<a href="javascript:showhide(\'verilog\')"><li style="color:gray;">Verilog</li></a>
-<span class="tooltipRtext">Developed using: Vivado <br/> on a Artix 7 and Kintex 7</span></span></div>
-<ul><li>Behavioral</li><li>Dataflow</li><li>Structural</li><li>System</li></ul>
-<div style="padding-left:0px;"><span class="tooltipr">
-<a href="javascript:showhide(\'vhdl\')"><li style="color:gray;">VHDL</li></a>
+<ul><div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'verilog\')">
+<li style="color:gray;">Verilog</li></a><span class="tooltipRtext">Developed using: Vivado <br/>on a Artix 7 and Kintex 7</span>
+</span></div><ul><li>Behavioral</li><li>Dataflow</li><li>Structural</li><li>System</li></ul><div style="padding-left:0px;">
+<span class="tooltipr"><a href="javascript:showhide(\'vhdl\')"><li style="color:gray;">VHDL</li></a>
 <span class="tooltipRtext">Developed using: Libero <br/> on a PolarFire</span></span></div></ul>
   
 #### Simulation and Testing
@@ -107,42 +100,34 @@ print_compe <- function(){
 
 #### Circuit Analysis
 
-<ul><div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'spice\')">
-<li style="color:gray;">Spice Software</li></a><span class="tooltipRtext"><ul style="color:white;">
-<li>LTSpice</li><li>EasyEDA</li></ul></span></span></div><div style="padding-left:0px;">
-<span class="tooltipr"><a href="javascript:showhide(\'op\')">
-<li style="color:gray;">Transistors, Diodes, and Op-Amps</li></a>
-<span class="tooltipRtext"><ul style="color:white;">
-<li>MOSFETS</li><li>BJT</li></ul></span></span></div>
-<div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'BC\')">
-<li>Basic Circuits</li></a></span><div id="BC" style="display:none;padding-left:20px;">
-<p>Methods and Techniques:</p><ul><li>Nodal</li><li>Mesh</li><li>Kirchhoff\'s Laws</li> 
-<li>Thevenin\'s Theorem</li><li>Norton\'s Theorem</li></ul></div></div><ul><li>Inductors</li> 
-<li>Capacitors</li><li>Resistors</li></ul></ul>
+<ul><div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'spice\')"><li style="color:gray;">Spice Software</li>
+</a><span class="tooltipRtext"><ul style="color:white;"><li>LTSpice</li><li>EasyEDA</li></ul></span></span></div><div style="padding-left:0px;">
+<span class="tooltipr"><a href="javascript:showhide(\'op\')"><li style="color:gray;">Transistors, Diodes, and Op-Amps</li></a><span class="tooltipRtext">
+<ul style="color:white;"><li>MOSFETS</li><li>BJT</li></ul></span></span></div><div style="padding-left:0px;"><span class="tooltipr">
+<a href="javascript:showhide(\'BC\')"><li>Basic Circuits</li></a></span><div id="BC" style="display:none;padding-left:20px;">
+<p>Methods and Techniques:</p><ul><li>Nodal</li><li>Mesh</li><li>Kirchhoff\'s Laws</li><li>Thevenin\'s Theorem</li><li>Norton\'s Theorem</li>
+</ul></div></div><ul><li>Inductors</li><li>Capacitors</li><li>Resistors</li></ul></ul>
 
 #### Engineering Basics
 
-<ul><li>Design and Communication</li><li>Ethics and Economics</li><li>Drawings and Draftings</li>
-<div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'EM\')">
-<li style="color:gray;">Parameters Based Systems</li></a><span class="tooltipRtext">
-<ul style="color:white;"><li>Length</li><li>Time</li><li>Mass</li><li>Force</li>
-<li>Temperature</li><li>Energy and Power</li></ul></span></span></div></ul>
+<ul><li>Design and Communication</li><li>Ethics and Economics</li><li>Drawings and Draftings</li><div style="padding-left:0px;"><span class="tooltipr">
+<a href="javascript:showhide(\'EM\')"><li style="color:gray;">Parameters Based Systems</li></a><span class="tooltipRtext"><ul style="color:white;">
+<li>Length</li><li>Time</li><li>Mass</li><li>Force</li><li>Temperature</li><li>Energy and Power</li></ul></span></span></div></ul>
 
 #### Science {.tabset .tabset-pills}
 
 ##### Physics
 
 <ul><li>Mechanics</li><ul><li>Newtonian</li><li>Fluid</li><li>Kinematics</li><li>Statics</li><li>Dynamics</li></ul>
-<div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'MM\')">
-<li style="color:gray;">Motion and Momentum</li></a><span class="tooltipRtext"><ul style="color:white;">
-<li>Circular</li><li>Harmonic</li><li>Rotational (Torque)</li></ul></span></span></div><li>Waves and Sound</li>
-<div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'EM\')">
-<li style="color:gray;">Electricity and Magnetism</li></a><span class="tooltipRtext"><ul style="color:white;">
-<li>Electrical Systems, Fields and Forces</li><li>Magnetic Systems, Fields and Forces</li>
-<li>Electromagnetic Forces and Optics</li></ul></span></span></div><div style="padding-left:0px;">
-<span class="tooltipr"><a href="javascript:showhide(\'MP\')"><li style="color:gray;">Modern Physics</li></a>
-<span class="tooltipRtext"><ul style="color:white;"><li>Quantum</li><li>Atomic</li><li>Nuclear</li><li>Relativity</li>
-</ul></span></span></div><li>Astro Physics</li></ul> 
+<div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'MM\')"><li style="color:gray;">
+Motion and Momentum</li></a><span class="tooltipRtext"><ul style="color:white;"><li>Circular</li><li>Harmonic</li>
+<li>Rotational (Torque)</li></ul></span></span></div><li>Waves and Sound</li><div style="padding-left:0px;">
+<span class="tooltipr"><a href="javascript:showhide(\'EM\')"><li style="color:gray;">Electricity and Magnetism</li>
+</a><span class="tooltipRtext"><ul style="color:white;"><li>Electrical Systems, Fields and Forces</li>
+<li>Magnetic Systems, Fields and Forces</li><li>Electromagnetic Forces and Optics</li></ul></span></span></div>
+<div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'MP\')"><li style="color:gray;">
+Modern Physics</li></a><span class="tooltipRtext"><ul style="color:white;"><li>Quantum</li><li>Atomic</li>
+<li>Nuclear</li><li>Relativity</li></ul></span></span></div><li>Astro Physics</li></ul> 
 
 ##### Chemistry
 
@@ -170,16 +155,14 @@ print_datascience <- function(){
 
 ### Tools
 
-<ul><div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'R\')"><li>R</li></a>
-<span class="tooltipRtext">Developed using: RStudio <br/> with Rmd files and R Scripts</span>
-</span><div id="R" style="display:none;padding-left:20px;">
+<ul><div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'R\')"><li>R</li></a><span class="tooltipRtext">
+Developed using: RStudio <br/> with Rmd files and R Scripts</span></span><div id="R" style="display:none;padding-left:20px;">
 
 Packages include: 
 
-<ul><div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'tidy\')">
-<li style="color:gray;">tidyverse</li></a><span class="tooltipRtext"><ul style="color:white;">
-<li>ggplot2</li><li>dplyr</li><li>tidyr</li><li>readr</li><li>purr</li><li>magrittr</li>
-<li>tibble</li><li>stringr</li><li>forcats</li></ul></span></span></div>
+<ul><div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'tidy\')"><li style="color:gray;">tidyverse</li>
+</a><span class="tooltipRtext"><ul style="color:white;"><li>ggplot2</li><li>dplyr</li><li>tidyr</li><li>readr</li><li>purr</li>
+<li>magrittr</li><li>tibble</li><li>stringr</li><li>forcats</li></ul></span></span></div>
 
 <li>knitr</li>
 <li>readxl</li>
@@ -204,9 +187,8 @@ Packages include:
 <li>shiny</li>
 </ul></div></div>
   
-<div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'Py\')"><li>Python</li></a>
-<span class="tooltipRtext">Developed using: <br/> Google Colab <br/> with Jupyter Notebooks</span></span>
-<div id="Py" style="display:none;padding-left:20px;">
+<div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'Py\')"><li>Python</li></a><span class="tooltipRtext">
+Developed using: <br/> Google Colab <br/> with Jupyter Notebooks</span></span><div id="Py" style="display:none;padding-left:20px;">
 
 Libraries include:
 
@@ -229,14 +211,11 @@ Libraries include:
 
 #### Tests
 
-<ul><li>t-test</li><li>Wilcox</li><li>ANOVA</li><li>Kruskal-Wallis</li>
-<div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'Regres\')">
-<li style="color:gray;">Regression</li></a><span class="tooltipRtext"><ul style="color:white;">
-<li>Linear</li><li>Logistic</li></ul></span></span></div>
-<div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'Chi\')">
-<li style="color:gray;">Chi-Squared</li></a><span class="tooltipRtext"><ul style="color:white;">
-<li>Independence</li><li>Goodness of Fit</li></ul></span></span></div>
-<div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'Rand\')">
+<ul><li>t-test</li><li>Wilcox</li><li>ANOVA</li><li>Kruskal-Wallis</li><div style="padding-left:0px;"><span class="tooltipr">
+<a href="javascript:showhide(\'Regres\')"><li style="color:gray;">Regression</li></a><span class="tooltipRtext"><ul style="color:white;">
+<li>Linear</li><li>Logistic</li></ul></span></span></div><div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'Chi\')">
+<li style="color:gray;">Chi-Squared</li></a><span class="tooltipRtext"><ul style="color:white;"><li>Independence</li><li>Goodness of Fit</li>
+</ul></span></span></div><div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'Rand\')">
 <li>Permutation</li></a></span><div id="Rand" style="display:none;padding-left:20px;">
 
 The process of a permutation (randomization) test is:
@@ -249,13 +228,11 @@ The process of a permutation (randomization) test is:
 
 #### Topics
 
-<ul><div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'Dis\')">
-<li style="color:gray;">Distributions</li></a><span class="tooltipRtext"><ul style="color:white;">
-<li>Normal (Z) Distribution</li><li>Chi Squared Distribution</li><li>t Distribution</li>
-<li>F Distribution</li></ul></span></span></div><li>Z Scores</li><li>P Values</li>
-<li>Experimental Design</li><li>Probability Theory</li><li>Confidence Intervals</li><li>Hypothesis Testing</li>
-<div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'dat\')"><li>Data Management</li>
-</a></span><div id="dat" style="display:none;padding-left:20px;">
+<ul><div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'Dis\')"><li style="color:gray;">Distributions</li>
+</a><span class="tooltipRtext"><ul style="color:white;"><li>Normal (Z) Distribution</li><li>Chi Squared Distribution</li><li>t Distribution</li>
+<li>F Distribution</li></ul></span></span></div><li>Z Scores</li><li>P Values</li><li>Experimental Design</li><li>Probability Theory</li>
+<li>Confidence Intervals</li><li>Hypothesis Testing</li><div style="padding-left:0px;"><span class="tooltipr">
+<a href="javascript:showhide(\'dat\')"><li>Data Management</li></a></span><div id="dat" style="display:none;padding-left:20px;">
 
 + Intuition
 + Insight 
@@ -286,10 +263,10 @@ print_it <- function(){
 
 ### Web Development
 
-<ul><li>HTML / CSS</li><div style="padding-left:0px;">
-<span class="tooltipr"><a href="javascript:showhide(\'JS\')"><li>JavaScript / TypeScript</li></a>
-<span class="tooltipRtext">W3 Schools Quiz: 21/25</span></span>
-<div id="JS" style="display:none;padding-left:20px;">
+<ul><li>HTML / CSS</li>
+
+<div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'JS\')"><li>JavaScript / TypeScript</li>
+</a><span class="tooltipRtext">W3 Schools Quiz: 21/25</span></span><div id="JS" style="display:none;padding-left:20px;">
 
 Frameworks:
 
@@ -303,20 +280,15 @@ Frameworks:
 
 <li>Ruby</li>
 
-<div style="padding-left:0px;">
-<span class="tooltipr"><a href="javascript:showhide(\'php\')"><li style="color:gray;">PHP</li></a>
-<span class="tooltipRtext">W3 Schools Quiz: 21/25</span></span></div>
-<div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'Pyweb\')">
-<li>Python Web App</li></a></span><div id="Pyweb" style="display:none;padding-left:20px;">
-* Python libraries
-  - Flask
-  - Django
-* Google SDK  
-</div></div>
+<div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'php\')">
+<li style="color:gray;">PHP</li></a><span class="tooltipRtext">W3 Schools Quiz: 21/25</span></span></div>
 
-<div style="padding-left:0px;">
-<span class="tooltipr"><a href="javascript:showhide(\'Rweb\')"><li>R-based webpages</li></a></span>
-<div id="Rweb" style="display:none;padding-left:20px;">
+<div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'Pyweb\')"><li>Python Web App</li>
+</a></span><div id="Pyweb" style="display:none;padding-left:20px;"><ul><li>Python libraries</li><ul><li>Flask</li>
+<li>Django</li></ul><li>Google SDK</li></ul></div></div>
+
+<div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'Rweb\')"><li>R-based webpages</li>
+</a></span><div id="Rweb" style="display:none;padding-left:20px;">
 
 * Basic knitr    
   Basic building blocks:
@@ -343,10 +315,8 @@ Frameworks:
   Basic building blocks:
   - shiny (R package)
   - app.R or ui.R/server.R
-    <ul>
-    <div style="padding-left:0px;">
-    <span class="tooltipr"><a href="javascript:showhide(\'shinyui\')"><li>User Interface</li></a></span>
-    <div id="shinyui" style="display:none;padding-left:20px;">
+    <ul><div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'shinyui\')">
+    <li>User Interface</li></a></span><div id="shinyui" style="display:none;padding-left:20px;">
       ```
       ui <- fluidPage(
         titlePanel("title panel"),
@@ -357,10 +327,8 @@ Frameworks:
         )
       )
       ```
-    </div></div>
-    <div style="padding-left:0px;">
-    <span class="tooltipr"><a href="javascript:showhide(\'shinyserver\')"><li>Shiny Server</li></a></span>
-    <div id="shinyserver" style="display:none;padding-left:20px;">
+    </div></div><div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'shinyserver\')">
+    <li>Shiny Server</li></a></span><div id="shinyserver" style="display:none;padding-left:20px;">
       ```
       server <- function(input, output) {
         ...
@@ -369,20 +337,15 @@ Frameworks:
       ```
     </div></div></div></div> 
 
-<ul><li>Stacks</li><ul>
-<li>LAMP</li>
-<li>MERN</li>
-<!-- <li></li> -->
-</ul></ul>  
+<ul><li>Stacks</li><ul><li>LAMP</li><li>MERN</li><!-- <li></li> --></ul></ul>  
 
 ### Databases
 
-<ul><div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'DD\')">
-<li style="color:gray;">Development & Design</li></a><span class="tooltipRtext"><ul style="color:white;">
-<li>SQL</li><ul><li>Oracle</li><li>MySQL</li></ul><li>NoSQL</li><ul><li>MongoDB</li><li>Firebase</li>
-</ul></ul></span></span></div><li>Programming</li>
-<div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'Databases\')"><li style="color:gray;">Administration</li></a>
-<span class="tooltipRtext"><ul style="color:white;"><li>Ubuntu</li><li>Fedora</li></ul></span></span></div><li>Warehousing</li></ul>
+<ul><div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'DD\')"><li style="color:gray;">Development & Design</li>
+</a><span class="tooltipRtext"><ul style="color:white;"><li>SQL</li><ul><li>Oracle</li><li>MySQL</li></ul><li>NoSQL</li><ul><li>MongoDB</li>
+<li>Firebase</li></ul></ul></span></span></div><li>Programming</li><div style="padding-left:0px;"><span class="tooltipr">
+<a href="javascript:showhide(\'Databases\')"><li style="color:gray;">Administration</li></a><span class="tooltipRtext"><ul style="color:white;">
+<li>Ubuntu</li><li>Fedora</li></ul></span></span></div><li>Warehousing</li></ul>
 
 ### Operating Systems
 
@@ -444,9 +407,8 @@ print_math <- function(){
   pander::pander('
 ## Mathematics
 
-<ul><li>Differential Calculus</li><li>Linear Algebra</li><li>College Algebra</li><li>Trigonometry</li>
-<div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'ba\')">
-<li>Boolean Algebra</li></a></span><div id="ba" style="display:none;padding-left:20px;">
+<ul><li>Differential Calculus</li><li>Linear Algebra</li><li>College Algebra</li><li>Trigonometry</li><div style="padding-left:0px;">
+<span class="tooltipr"><a href="javascript:showhide(\'ba\')"><li>Boolean Algebra</li></a></span><div id="ba" style="display:none;padding-left:20px;">
 
 Topics include:
 
@@ -479,9 +441,8 @@ Topics include:
 
 </div></div>
 
-<li>Applied Math</li><div style="padding-left:0px;">
-<span class="tooltipr"><a href="javascript:showhide(\'math\')"><li style="color:gray;">Basic Math and Arithmetic</li></a>
-<span class="tooltipRtext">W3 Schools Quiz: 25/25</span></span></div></ul>  
+<li>Applied Math</li><div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'math\')">
+<li style="color:gray;">Basic Math and Arithmetic</li></a><span class="tooltipRtext">W3 Schools Quiz: 25/25</span></span></div></ul>  
 
 ### Functional Programming
 
@@ -499,21 +460,15 @@ print_software <- function(){
 
 ### Languages
 
-<ul><div style="padding-left:0px;">
-<span class="tooltipr"><a href="javascript:showhide(\'C++\')"><li>C/C++</li></a>
-<span class="tooltipRtext">W3 Schools Quiz: 25/25</span></span>
-<div id="C++" style="display:none;padding-left:20px;">Developed Using:
-<ul><li>Visual Studio</li></ul></div></div>
-<div style="padding-left:0px;">
-<span class="tooltipr"><a href="javascript:showhide(\'Python\')"><li>Python</li></a>
-<span class="tooltipRtext">W3 Schools Quiz: 25/25</span></span>
-<div id="Python" style="display:none;padding-left:20px;">Developed Using:<ul><li>Pycharm</li>
-<li>Thony</li><li>Jupyter Notebook</li></ul></div></div>
-<div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'Java\')"><li>Java</li></a>
-<span class="tooltipRtext">W3 Schools Quiz: 22/25</span></span><div id="Java" style="display:none;padding-left:20px;">
-Developed Using:<ul><li>IntelliJ</li><li>Android Studio</li></ul></div></div>
-<div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'CS\')">
-<li style="color:gray;">C#</li></a><span class="tooltipRtext">W3 Schools Quiz: 23/25</span></span></div></ul>
+<ul><div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'C++\')"><li>C/C++</li></a>
+<span class="tooltipRtext">W3 Schools Quiz: 25/25</span></span><div id="C++" style="display:none;padding-left:20px;">Developed Using:
+<ul><li>Visual Studio</li></ul></div></div><div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'Python\')">
+<li>Python</li></a><span class="tooltipRtext">W3 Schools Quiz: 25/25</span></span><div id="Python" style="display:none;padding-left:20px;">
+Developed Using:<ul><li>Pycharm</li><li>Thony</li><li>Jupyter Notebook</li></ul></div></div><div style="padding-left:0px;"><span class="tooltipr">
+<a href="javascript:showhide(\'Java\')"><li>Java</li></a><span class="tooltipRtext">W3 Schools Quiz: 22/25</span></span>
+<div id="Java" style="display:none;padding-left:20px;">Developed Using:<ul><li>IntelliJ</li><li>Android Studio</li></ul></div></div>
+<div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'CS\')"><li style="color:gray;">C#</li>
+</a><span class="tooltipRtext">W3 Schools Quiz: 23/25</span></span></div></ul>
 
 ### Mobile App Development
 
