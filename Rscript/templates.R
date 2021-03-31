@@ -83,3 +83,13 @@ print_byuiwork <- function(){
   #### Part-Time \n\n\n
   ### Teaching Assistant {.tabset .tabset-fade} \n\n\n')
 }
+
+print_readme <- function(){
+  pander('
+  * [Portfolio](https://kctolli.github.io/)
+    + [Resume](https://kctolli.github.io/site_libs/resume/resume.html)
+    + [Diploma](https://kctolli.github.io/site_libs/images/diploma.pdf) \n\n\n
+  <h2>User Stats</h2><a href="https://github.com/anuraghazra/github-readme-stats" align="center"><img style="max-width:100%;"
+  height="160" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kctolli&layout=compact&theme=gruvbox"/></a> 
+  \n\n\n<h2>Highlights</h2>\n\n\n')
+}
