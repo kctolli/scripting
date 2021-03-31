@@ -161,7 +161,7 @@ print_compe <- function(){
 * Enthalpy of Formation and Reaction
 * Hess’s Law and Ideal Gas Law
 * Laws of Thermodynamics
-')
+\n\n\n')
 }
 
 print_datascience <- function(){
@@ -277,7 +277,7 @@ Algorithms include:</div></a><span class="tooltipRtext">Developed using Python</
 * Decision Trees
 * K-Nearest Neighbors
 * Neural Networks  
-')
+\n\n\n')
 }
 
 print_it <- function(){
@@ -437,7 +437,7 @@ Frameworks:
 * Windows Client
 * System Administration
 * Data Center Administration
-')
+\n\n\n')
 }
 
 print_math <- function(){
@@ -490,7 +490,7 @@ Topics include:
 * Elisp
 * Erlang
 * Clojure
-')
+\n\n\n')
 }
 
 print_software <- function(){
@@ -561,7 +561,7 @@ Developed Using:<ul><li>IntelliJ</li><li>Android Studio</li></ul></div></div>
 * Test Plans
 * Quality Assurance
 * Process Improvement
-')
+\n\n\n')
 }
 
 print_industry <- function(){
@@ -587,5 +587,5 @@ print_industry <- function(){
 * Security
 * Market 
 * Data               
-')
+\n\n\n')
 }
