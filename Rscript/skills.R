@@ -526,7 +526,7 @@ Developed Using:<ul><li>IntelliJ</li><li>Android Studio</li></ul></div></div>
 
 * Multithreading
 * UML Diagrams
-* Model–view–controller
+* Model-view-controller
 * Test Driven Development
 * Observer
 * Factory
