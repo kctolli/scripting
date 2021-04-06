@@ -221,7 +221,7 @@ Libraries include:
 The process of a permutation (randomization) test is:
 
 1. A test statistic for the original data.
-2. Re-sample the data (“shake it up and dump it out”) thousands of times, computing a new test statistic each time, to create a sampling distribution of the test statistic.
+2. Re-sample the data (shake it up and dump it out) thousands of times, computing a new test statistic each time, to create a sampling distribution of the test statistic.
 3. Compute the p-value of the permutation test as the percentage of test statistics that are as extreme or more extreme than the one originally observed.
 
 </div></div></ul>
@@ -335,9 +335,23 @@ Frameworks:
       
       }
       ```
-    </div></div></div></div> 
+    </div></div></div></div>
+</ul> 
 
-<ul><li>Stacks</li><ul><li>LAMP</li><li>MERN</li><!-- <li></li> --></ul></ul>  
+#### Environments
+
+* Apache
+* XAMPP
+* Github
+* Netlify
+* Glitch
+
+#### Stacks
+
+* LAMP
+* MERN
+* MEAN
+* R-Stack
 
 ### Databases
 
@@ -385,21 +399,15 @@ Frameworks:
   
 ### Project Management
 
-<ul><li>Technical Teamwork</li><li>Risk Management</li><li>Opportunity Cost</li>
-<div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'method\')">
-<li style="color:gray;">Methodologies</li></a><span class="tooltipRtext"><ul style="color:white;">
-<li>Agile</li><li>Scrum</li><li>Waterfall</li></ul></span></span></div>
-<div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'kanban\')">
-<li style="color:gray;">Kanban Board</li></a><span class="tooltipRtext"><ul style="color:white;">
+<ul><li>Technical Teamwork</li><li>Risk Management</li><li>Opportunity Cost</li><div style="padding-left:0px;"><span class="tooltipr">
+<a href="javascript:showhide(\'method\')"><li style="color:gray;">Methodologies</li></a><span class="tooltipRtext"><ul style="color:white;">
+<li>Agile</li><li>Scrum</li><li>Waterfall</li></ul></span></span></div><div style="padding-left:0px;"><span class="tooltipr">
+<a href="javascript:showhide(\'kanban\')"><li style="color:gray;">Kanban Board</li></a><span class="tooltipRtext"><ul style="color:white;">
 <li>Trello</li><li>Jira</li></ul></span></span></div></ul> 
 
 ### Technical Support
 
-* DevOps
-* Networking
-* Windows Client
-* System Administration
-* Data Center Administration
+<ul><li>DevOps</li><li>Networking</li><li>Windows Client</li><li>System Administration</li><li>Data Center Administration</li></ul> 
 \n\n\n')
 }
 
@@ -414,16 +422,16 @@ Topics include:
 
 * Numbers Systems
 * Signed Numbers
-+ Signed Magnitude
-+ 1\'s Complement
-+ 2\'s Complement
+  + Signed Magnitude
+  + 1\'s Complement
+  + 2\'s Complement
 * Theorems and Identities
-+ Simplification and Minimization
-+ Consensus
-+ DeMorgan\'s Rules
-+ Sum of Products and Product of Sums
-+ Canonical Forms
-+ Karnaugh Maps
+  + Simplification and Minimization
+  + Consensus
+  + DeMorgan\'s Rules
+  + Sum of Products and Product of Sums
+  + Canonical Forms
+  + Karnaugh Maps
 
 </div></div>
 
@@ -470,12 +478,7 @@ Developed Using:<ul><li>Pycharm</li><li>Thony</li><li>Jupyter Notebook</li></ul>
 <div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'CS\')"><li style="color:gray;">C#</li>
 </a><span class="tooltipRtext">W3 Schools Quiz: 23/25</span></span></div></ul>
 
-### Mobile App Development
-
-* MIT App Inventor
-* Java
-* Kotlin
-* Swift
+### Mobile App Development \n\n\n <ul><li>MIT App Inventor</li><li>Java</li><li>Kotlin</li><li>Swift</li></ul>
 
 ### Design Patterns
 
