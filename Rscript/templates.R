@@ -90,7 +90,6 @@ print_readme <- function(){
     + [Resume](https://kctolli.github.io/Resume/)
     + [Diploma](https://kctolli.github.io/site_libs/images/diploma.pdf) \n\n\n
   <h2>User Stats</h2>\n\n\n
-  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kctolli&langs_count=8&layout=compact)]
-  (https://github.com/anuraghazra/github-readme-stats)
-  \n\n\n<h2>Highlights</h2>\n\n\n'))
+  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&langs_count=8)]
+  (https://github.com/anuraghazra/github-readme-stats)\n\n\n<h2>Highlights</h2>\n\n\n'))
 }
