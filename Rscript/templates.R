@@ -84,7 +84,7 @@ print_byuiwork <- function(){
   ### Teaching Assistant {.tabset .tabset-fade} \n\n\n')
 }
 
-print_readme <- function(count){
+print_readme <- function(count = 8){
   pander(glue('
   * [Portfolio](https://kctolli.github.io/)
     + [Resume](https://kctolli.github.io/Resume/)
