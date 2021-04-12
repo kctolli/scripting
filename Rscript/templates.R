@@ -45,8 +45,7 @@ print_tutor <- function(){
 print_ds <- function(){
   pander(glue('
   <div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'pic\')" align="center">
-  <img src="https://secure.meetupstatic.com/photos/event/d/7/4/b/600_482695115.jpeg" 
-  alt="Data Science Image" class="img"></a></span>
+  <img src="https://secure.meetupstatic.com/photos/event/d/7/4/b/600_482695115.jpeg" alt="Data Science Image" class="img"></a></span>
   <h4 id="pic" style="display:none;padding-left:20px;">Interdisciplinary field that uses scientific methods, 
   processes, algorithms and systems to extract knowledge and insights from structured and unstructured data, 
   and apply knowledge and actionable insights from data across a broad range of application domains.</h4></div>\n\n\n'))
@@ -71,9 +70,8 @@ print_byui <- function(){
 }
 
 print_hs <- function(){
-  pander('## Moorpark High School \n\n\n
-  <div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'hs\')">I was able to take some 
-  advanced and college level courses in the process of getting my High School Diploma.</a>
+  pander('## Moorpark High School \n\n\n <div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'hs\')">
+  I was able to take some advanced and college level courses in the process of getting my High School Diploma.</a>
   <span class="tooltipRtext"><strong>2017 Graduate</strong></span></span><div id="hs" style="display:none;padding-left:20px;">')
 }
 
@@ -90,6 +88,6 @@ print_readme <- function(){
     + [Resume](https://kctolli.github.io/Resume/)
     + [Diploma](https://kctolli.github.io/site_libs/images/diploma.pdf) \n\n\n
   <h2>User Stats</h2>\n\n\n<a href="https://github.com/anuraghazra/github-readme-stats" align="center"><img style="max-width:100%;"
-  height="160" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kctolli&layout=compact&theme=gruvbox
-  &exclude_repo=kctolli,kctolli.github.io"/></a>\n\n\n<h2>Highlights</h2>\n\n\n'))
+  height="160" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kctolli&layout=compact&theme=gruvbox"/>
+  </a>\n\n\n<h2>Highlights</h2>\n\n\n'))
 }
