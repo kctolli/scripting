@@ -10,14 +10,16 @@ print_byuiwork <- function(){
 }
 
 print_ta <- function(){
-  pander(glue_data(entries, "#### {title}
+  glue_template <- "#### {title}
   
   {startmonth} {start} - {endmonth} {end} --- {loc}
   
   - {description_1}
   - {description_2}
   - {description_3}
-  \n\n\n"))
+  \n\n\n"
+  
+  section(entries, "ta", glue_template)
 }
 
 print_tutor <- function(){
