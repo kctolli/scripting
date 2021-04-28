@@ -4,15 +4,32 @@ library(tidyverse)
 
 section <- function(cv, section_id, glue_template){print(glue_data(filter(cv, section == section_id), glue_template))}
 
+print_byuiwork <- function(){
+  pander('\n\n\n
+  ## Brigham Young University - Idaho \n\n\n 
+  #### Part-Time \n\n\n
+  ### Teaching Assistant {.tabset .tabset-fade} \n\n\n')
+}
+
+print_ta <- function(){
+  pander("#### {title}
+  
+  {startmonth} {start} - {endmonth} {end} --- {loc}
+  
+  - {description_1}
+  - {description_2}
+  - {description_3}
+  \n\n\n")
+}
+
 print_tutor <- function(){
   pander(glue('
   ### Computer Science Tutor
 
   April 2018 - August 2018 --- Rexburg, ID
 
-  <ul><div style="padding-left:0px;">
-  <span class="tooltipr"><a href="javascript:showhide(\'tutor\')"><li>Tutored many classes</li></a></span>
-  <div id="tutor" style="display:none;padding-left:20px;">
+  <ul><div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'tutor\')">
+  <li>Tutored many classes</li></a></span><div id="tutor" style="display:none;padding-left:20px;">
 
     + Object-Oriented Programming with Data Structures using Python
     + Fundamentals of Digital Systems w/ Lab
@@ -54,13 +71,6 @@ print_hs <- function(){
   pander('## Moorpark High School \n\n\n <div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'hs\')">
   I was able to take some advanced and college level courses in the process of getting my High School Diploma.</a>
   <span class="tooltipRtext"><strong>2017 Graduate</strong></span></span><div id="hs" style="display:none;padding-left:20px;">')
-}
-
-print_byuiwork <- function(){
-  pander('\n\n\n
-  ## Brigham Young University - Idaho \n\n\n 
-  #### Part-Time \n\n\n
-  ### Teaching Assistant {.tabset .tabset-fade} \n\n\n')
 }
 
 print_readme <- function(){
