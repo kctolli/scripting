@@ -5,21 +5,19 @@ library(tidyverse)
 section <- function(cv, section_id, glue_template){print(glue_data(filter(cv, section == section_id), glue_template))}
 
 print_byuiwork <- function(){
-  pander('\n\n\n
-  ## Brigham Young University - Idaho \n\n\n 
-  #### Part-Time \n\n\n
-  ### Teaching Assistant {.tabset .tabset-fade} \n\n\n')
+  pander('\n\n\n## Brigham Young University - Idaho \n\n\n#### Part-Time 
+         \n\n\n### Teaching Assistant {.tabset .tabset-fade} \n\n\n')
 }
 
 print_ta <- function(){
-  pander("#### {title}
+  pander(glue_data(entries, "#### {title}
   
   {startmonth} {start} - {endmonth} {end} --- {loc}
   
   - {description_1}
   - {description_2}
   - {description_3}
-  \n\n\n")
+  \n\n\n"))
 }
 
 print_tutor <- function(){
