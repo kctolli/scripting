@@ -13,7 +13,7 @@ print_contact <- function(file){
   print(glue_data(info, "<i class='fa fa-{icon}'></i> [{contact}]({link}) \n\n"))
 }
 
-print_skills <- function(){print(glue_data(dplyr::filter(skills, level >= 5), "- {skill} \n"))}
+print_skills <- function(){print(glue_data(skills, "- {skill} \n"))}
 print_hobbies <- function(){print(glue_data(hobbies, "- {hobby} \n"))}
 print_pos <- function(section_id){section(pos, section_id, "- {name}\n")}
 print_solo <- function(){print(glue_data(solo, "- {name} - [#{number}](https://www.sololearn.com/{link}/pdf)\n"))}
