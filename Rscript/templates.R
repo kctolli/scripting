@@ -4,6 +4,11 @@ library(tidyverse)
 
 section <- function(cv, section_id, glue_template){print(glue_data(filter(cv, section == section_id), glue_template))}
 
+summary <- "As a Software Developer at Younique Products, I focus on Web Development and Data Systems. 
+  I have gained experience with JavaScript (Node JS, Express JS, JQuery, Vanilla), Data Systems (Dynamodb-AWS, SQL, R, Excel, Firebase), Docker, NPM, among others. 
+  I received my Bachelor's (BS) from BYU-Idaho in Software Engineering with minors in Computer Engineering and Data Science. 
+  I love to learn new things and solve problems."
+
 print_byuiwork <- function(){
   pander('\n\n\n## Brigham Young University - Idaho \n\n\n#### Part-Time 
          \n\n\n### Teaching Assistant {.tabset .tabset-fade} \n\n\n')
@@ -50,10 +55,7 @@ print_ds <- function(){
 }
 
 print_about <- function(){
-  pander(glue('## About Me \n\n 
-  BYU-Idaho graduate with a Bachelor\'s (BS) in Software Engineering. 
-  I also earned a minor in Computer Engineering and Data Science. 
-  I love to learn new things and solve problems. \n\n
+  pander(glue('## About Me \n\n {summary}\n\n
   <div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'me\')">
   A little more about me</a></span><div id="me" style="display:none;padding-left:20px;">\n\n'))
 }
