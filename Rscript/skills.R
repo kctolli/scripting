@@ -259,9 +259,7 @@ Algorithms include:</div></a><span class="tooltipRtext">Developed using Python</
 
 print_it <- function(){
   pander::pander('
-## Information Technology
-
-### Web Development
+## Web Development
 
 <ul><li>HTML / CSS</li>
 
@@ -275,6 +273,7 @@ Frameworks:
 * Redux
 * Angular
 * Node
+* Express
 
 </div></div>
 
@@ -338,7 +337,7 @@ Frameworks:
     </div></div></div></div>
 </ul> 
 
-#### Environments
+### Environments
 
 * Apache
 * XAMPP
@@ -346,18 +345,20 @@ Frameworks:
 * Netlify
 * Glitch
 
-#### Stacks
+### Stacks
 
 * LAMP
 * MERN
 * MEAN
-* R-Stack
+* R-Stack  
+  
+## Information Technology
 
 ### Databases
 
 <ul><div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'DD\')"><li style="color:gray;">Development & Design</li>
 </a><span class="tooltipRtext"><ul style="color:white;"><li>SQL</li><ul><li>Oracle</li><li>MySQL</li></ul><li>NoSQL</li><ul><li>MongoDB</li>
-<li>Firebase</li></ul></ul></span></span></div><li>Programming</li><div style="padding-left:0px;"><span class="tooltipr">
+<li>Firebase</li><li>Dynamo</li></ul></ul></span></span></div><li>Programming</li><div style="padding-left:0px;"><span class="tooltipr">
 <a href="javascript:showhide(\'Databases\')"><li style="color:gray;">Administration</li></a><span class="tooltipRtext"><ul style="color:white;">
 <li>Ubuntu</li><li>Fedora</li></ul></span></span></div><li>Warehousing</li></ul>
 
@@ -478,7 +479,9 @@ Developed Using:<ul><li>Pycharm</li><li>Thony</li><li>Jupyter Notebook</li></ul>
 <div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'CS\')"><li style="color:gray;">C#</li>
 </a><span class="tooltipRtext">W3 Schools Quiz: 23/25</span></span></div></ul>
 
-### Mobile App Development \n\n\n <ul><li>MIT App Inventor</li><li>Java</li><li>Kotlin</li><li>Swift</li></ul>
+### Mobile App Development \n\n\n 
+
+<ul><li>MIT App Inventor</li><li>Java</li><li>Kotlin</li><li>Swift</li></ul>
 
 ### Design Patterns
 
