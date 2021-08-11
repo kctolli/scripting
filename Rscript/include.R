@@ -6,5 +6,6 @@ source("https://raw.githubusercontent.com/kctolli/scripting/main/Rscript/copyrig
 source("https://raw.githubusercontent.com/kctolli/scripting/main/Rscript/templates.R")
 source("https://raw.githubusercontent.com/kctolli/scripting/main/Rscript/basictemplates.R")
 source("https://raw.githubusercontent.com/kctolli/scripting/main/Rscript/skills.R")
+source("https://raw.githubusercontent.com/kctolli/scripting/main/Rscript/summary.R")
 
 library(pander, glue, tidyverse)
