@@ -392,6 +392,7 @@ Frameworks:
   + Aurora
 * Git
   + Github
+  + Gitflow
   + Bash
 * Google Cloud
   + Drive
