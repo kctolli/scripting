@@ -18,4 +18,3 @@ highlights <- gsheet("https://docs.google.com/spreadsheets/d/1yVMadV6xJDm9pTY5Vj
 entries <- gsheet("https://docs.google.com/spreadsheets/d/1xWg3dkO6oB2Krr24fCuxDsR0aFu8jVw35FGHvvsY5g0/edit")
 contact <- gsheet("https://docs.google.com/spreadsheets/d/1TR2Bfxfzh6dWtnAbuhYM6JtU7rWTe_cLW68olas__fk/edit")
 references <- gsheet("https://docs.google.com/spreadsheets/d/1gwxS8Q4h49CZLs3ZUvTtcnQNsxA4G2jvMyOKu4Lu83w/edit")
-hobbies <- gsheet("https://docs.google.com/spreadsheets/d/13qaCKh6oLsZ2UNJz_vQwRUwr8zARwYRV4qw1kolszFU/edit")
