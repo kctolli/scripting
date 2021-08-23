@@ -357,7 +357,7 @@ Frameworks:
 ### Databases
 
 <ul><div style="padding-left:0px;"><span class="tooltipr"><a href="javascript:showhide(\'DD\')"><li style="color:gray;">Development & Design</li>
-</a><span class="tooltipRtext"><ul style="color:white;"><li>SQL</li><ul><li>Oracle</li><li>MySQL</li></ul><li>NoSQL</li><ul><li>MongoDB</li>
+</a><span class="tooltipRtext"><ul style="color:white;"><li>SQL</li><ul><li>Oracle</li><li>MySQL</li><li>Aurora</li></ul><li>NoSQL</li><ul><li>MongoDB</li>
 <li>Firebase</li><li>Dynamo</li></ul></ul></span></span></div><li>Programming</li><div style="padding-left:0px;"><span class="tooltipr">
 <a href="javascript:showhide(\'Databases\')"><li style="color:gray;">Administration</li></a><span class="tooltipRtext"><ul style="color:white;">
 <li>Ubuntu</li><li>Fedora</li></ul></span></span></div><li>Warehousing</li></ul>
@@ -385,6 +385,11 @@ Frameworks:
 
 ### Cloud Computing
 
+* AWS (Amazon Web Services)
+  + CloudFormation
+  + CloudWatch
+  + Dynamo
+  + Aurora
 * Git
   + Github
   + Bash
@@ -393,10 +398,6 @@ Frameworks:
   + Colab
 * Docker
 * Kubernetes
-* Network Computing
-  + Virtual Network Computing (VNC)
-  + Secure Shell (SSH)
-  + Remote Desktop Protocol (RDP)
   
 ### Project Management
 
@@ -408,8 +409,9 @@ Frameworks:
 
 ### Technical Support
 
-<ul><li>DevOps</li><li>Networking</li><li>Windows Client</li><li>System Administration</li><li>Data Center Administration</li></ul> 
-\n\n\n')
+<ul><li>DevOps</li><li>Windows Client</li><li>System Administration</li><li>Data Center Administration</li>
+<li>Networking</li><ul><li>Virtual Network Computing</li><li>Secure Shell (SSH)</li><li>Remote Desktop Protocol (RDP)</li>
+</ul></ul>\n\n\n')
 }
 
 print_math <- function(){
@@ -522,6 +524,7 @@ Developed Using:<ul><li>Pycharm</li><li>Thony</li><li>Jupyter Notebook</li></ul>
 * Test Plans
 * Quality Assurance
 * Process Improvement
+* Unit Tests
 \n\n\n')
 }
 
@@ -539,6 +542,7 @@ print_industry <- function(){
 * Leadership
 * Organization
 * Finance
+  + Taxes
 * Ethics
 
 ### Research
